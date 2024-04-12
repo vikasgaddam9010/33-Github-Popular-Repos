@@ -1,0 +1,44 @@
+.head {
+  font-family: 'Lobster';
+}
+
+.bg-container {
+  height: 100vh;
+  padding: 50px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .bg-container {
+    width: 100vw;
+  }
+  .ul-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ul-language-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.ul-container {
+  width: 50vw;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.ul-language-container {
+  width: 1000px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  list-style-type: none;
+}

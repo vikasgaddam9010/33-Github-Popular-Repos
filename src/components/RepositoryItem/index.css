@@ -1,0 +1,17 @@
+.tab-border {
+  background-color: transparent;
+  border: 2px solid #0284c7;
+  color: #0284c7;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 100px;
+  padding: 5px;
+}
+li{
+  margin: 10px;
+}
+.btn {
+  background-color: transparent;
+  border: 0px solid;
+  width: 100px;
+}
